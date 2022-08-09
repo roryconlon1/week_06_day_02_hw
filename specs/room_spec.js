@@ -76,7 +76,7 @@ describe('Painter', function(){
 
     it('should be able to add a can of paint', function(){
         const actual = painter.addPaintcolour('green');
-        assert.strictEqual(actual, 'green');
+        assert.strictEqual(actual, 1);
 
 
     })
@@ -91,3 +91,14 @@ describe('Painter', function(){
 
     
 })
+
+// define canItBePainted
+// if (paint.amount >= room.size){
+//     return true
+// } else {
+//     return false
+// }
+
+
+//if canItBePainted === true
+// remove amount size of room amount from paint amount

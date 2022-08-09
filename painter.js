@@ -9,7 +9,7 @@ Painter.prototype.amount = function(){
 }
 
 Painter.prototype.addPaintcolour = function(amount){
-    return this.paint += amount
+    return this.paint.push(amount)
 }
 
 Painter.prototype.addPaintlitre = function(volume){
